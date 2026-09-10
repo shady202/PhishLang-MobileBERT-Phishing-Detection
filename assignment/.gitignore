@@ -1,0 +1,39 @@
+# Local environments and editor files
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.vscode/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# Raw and generated datasets (too large and may contain third-party content)
+benign_samples/
+phish_samples/
+training_data/
+*.csv
+*.zip
+*.parquet
+*.pkl
+*.pickle
+
+# Model checkpoints and experiment outputs
+results/runs/
+*.bin
+*.ckpt
+*.safetensors
+*.pt
+*.pth
+
+# Logs and temporary files
+*.log
+*.tmp
+parsed_work/
